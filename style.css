@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+.navbar {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  background: whitesmoke;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+.navbar a{
+  text-align: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  border-bottom: 10px solid transparent;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+}
+
+
+a.nav-item:hover {
+  border-bottom: 4px solid #4b9cb4;
+}
+
+.profile-picture {
+  transition: transform 0.5s;
+
+}
+
+.profile-picture:hover {
+  transform: translateY(-10px);
+}
+hr {
+  color: #5cfff7;
+}
+
+h1 {
+  background-color: #4b9cb4;
+}
+
+.center {
+  text-align: center;
+
+
+}
+
+h3{
+background-color: #a5d3db;
+
+
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(-45deg,#73c0d9, #88e3ef, #c4f1f7, #e3f9fb);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+
+}
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(../images/scotland_3.webp);
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card1 {
+  background-image: url(../images/scotland_3.webp);
+
+}
+.card2 {
+    background-image: url(../images/Netherlands_4.jpg);
+}
+.card3 {
+    background-image: url(../images/saudi_4.jpg);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.col{
+  text-align: center;
+}
