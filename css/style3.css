@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.header{
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 730px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation{
+  overflow: hidden;
+  background-color:#e8e0d8;
+  color: #7d7d7d;
+  font-family: Yeseva One;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Yeseva One;
+  color: #7d7d7d;
+
+}
+@media screen and (max-width: 600px) {
+  .navigation a{
+    float: none;
+    width: 100%;
+  }
+
+}
+h1{
+  font-family: Yeseva One, sans-serif;
+}
+
+}
+h2{
+  font-family: Yeseva One, sans-serif;
+  color: #514F4D;
+}
+
+
+ }
+ .main{
+  margin-left: 500px;
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+  width: 300px;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.title{
+  font-family: 'Lato', sans-serif;
+}
+
+.pre-text{
+  font-family: 'Lato', sans-serif;
+}
+.main{
+  text-align: center;
+}
+.comment{
+  padding-left: 500px;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.bottom2{
+  background-color: #4b9cb4;
+}
+.bottom1{
+  width: 300px;
+  margin: auto;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0px 22px 0px;
+  display: inline-block;
+  border: none;
+  background-color:#e8e0d8;
+}
+
+textarea{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0px 22px 0px;
+  display: inline-block;
+  border: none;
+  background-color:#e8e0d8;
+  text-align: center;
+
+}
+footer{
+  background-color: #1C1C1C;
+  padding: 55px 0px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > div{
+  height: 363px;
+  width: 425px;
+}
+.images-bot{
+  margin-bottom: 0px;
+  margin-left: 40px;
+}
+
+.images-bot2{
+  margin-left: 150px;
+}
+.nav-bot{
+  width: 250px;
+  margin-top: 30px;
+}
+
+.nav-bot a:hover{
+  border-bottom: 1px solid white;
+}
+
+.nav-items{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-left: 90px;
+  margin-top: 10px;
+  font-family: serif;
+  font-size: 16px;
+}
