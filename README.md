@@ -1,3 +1,3 @@
-# cv_nov
+# somewhat responsive website
 
 Testing
